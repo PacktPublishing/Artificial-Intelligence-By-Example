@@ -1,0 +1,9 @@
+embeddings {
+  tensor_name: "features:0"
+  metadata_path: "C:\\GitHub\\17-TQC\\Embedding_concepts/embedding-logs\\metadata_4_classes.tsv"
+  sprite {
+    image_path: "C:\\GitHub\\17-TQC\\Embedding_concepts/embedding-logs\\sprite_4_classes.png"
+    single_image_dim: 64
+    single_image_dim: 64
+  }
+}

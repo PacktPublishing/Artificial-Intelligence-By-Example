@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\GitHub\\17-TQC\\Embedding_concepts/embedding-logs\\images_4_classes.ckpt"
+all_model_checkpoint_paths: "C:\\GitHub\\17-TQC\\Embedding_concepts/embedding-logs\\images_4_classes.ckpt"

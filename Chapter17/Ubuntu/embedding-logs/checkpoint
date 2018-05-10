@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/denis/Documents/Python/17-TCP/Embedding_concepts/embedding-logs/images_4_classes.ckpt"
+all_model_checkpoint_paths: "/home/denis/Documents/Python/17-TCP/Embedding_concepts/embedding-logs/images_4_classes.ckpt"

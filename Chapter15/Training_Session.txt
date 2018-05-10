@@ -1,0 +1,41 @@
+Python 3.6.3 (v3.6.3:2c5fed8, Oct  3 2017, 18:11:49) [MSC v.1900 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: C:\Users\Denis_000\Documents\Python\GITHUB\Chapter15_MDP_CRL_SANDBOX2\01_CNN_STRATEGY_MODEL.py 
+Using TensorFlow backend.
+directory dataset/
+Step 0 Initializing
+Step 1 Convolution
+Step 2 MaxPooling2D
+Step 3a Convolution
+Step 3b Pooling
+Step 4 Flattening
+Step 5 Dense
+Layer information Summary
+input features:
+<tf.Tensor 'conv2d_1_input:0' shape=(?, 64, 64, 3) dtype=float32>
+output features
+[<tf.Tensor 'conv2d_1/Relu:0' shape=(?, 62, 62, 32) dtype=float32>,
+ <tf.Tensor 'max_pooling2d_1/MaxPool:0' shape=(?, 31, 31, 32) dtype=float32>,
+ <tf.Tensor 'conv2d_2/Relu:0' shape=(?, 29, 29, 32) dtype=float32>,
+ <tf.Tensor 'max_pooling2d_2/MaxPool:0' shape=(?, 14, 14, 32) dtype=float32>,
+ <tf.Tensor 'flatten_1/Reshape:0' shape=(?, ?) dtype=float32>,
+ <tf.Tensor 'dense_1/Relu:0' shape=(?, 128) dtype=float32>,
+ <tf.Tensor 'dense_2/Sigmoid:0' shape=(?, 1) dtype=float32>]
+Step 6 Optimizer
+Step 7a train
+Step 7b training set
+Found 19 images belonging to 2 classes.
+Step 8a test
+Step 8b testing set
+Found 20 images belonging to 2 classes.
+Step 9 training
+Epoch 1/3
+ - 682s - loss: 0.0023 - acc: 0.9990 - val_loss: 3.4100 - val_acc: 0.7500
+Epoch 2/3
+ - 687s - loss: 1.3962e-07 - acc: 1.0000 - val_loss: 3.7109 - val_acc: 0.7500
+Epoch 3/3
+ - 695s - loss: 1.1155e-07 - acc: 1.0000 - val_loss: 3.9856 - val_acc: 0.7500
+Classifier <keras.callbacks.History object at 0x000001BAE3CFEB38>
+Model saved to disk
+>>> 
