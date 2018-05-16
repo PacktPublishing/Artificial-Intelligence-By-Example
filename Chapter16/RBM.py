@@ -1,6 +1,8 @@
 #Cognitive NPL (Natural Language Processing) Chabot
+#Denis Rothman
 #Personality Profiling with a Restricted Botzmannm Machine (RBM)
-#Initial RBM : https://github.com/echen/restricted-boltzmann-machines
+#Only the Initial RBM : https://github.com/echen/restricted-boltzmann-machines
+#The concepts and the rest of the code were designed and writtent by Denis Rothman
 #Sentiment Analysis with Textblob
 #Copyright 2018 Denis Rothman MIT License. READ LICENSE.
 from __future__ import print_function

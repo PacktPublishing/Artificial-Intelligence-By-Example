@@ -10,4 +10,4 @@ t = threading.Thread(target=launchTensorBoard, args=([]))
 t.start()
 
 #In your browser, enter http://localhost:6006 as the URL
-#and then click on Graph tab. You will then see the full graph.
+#add #projector to the URL if necessary: http://localhost:6006/#projector

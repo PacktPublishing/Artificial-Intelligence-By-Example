@@ -1,6 +1,6 @@
+#Denis Rothman
 def launchTensorBoard():
     import os
-    #os.system('tensorboard --logdir=' + 'c:/tfoutput/Test')
     os.system('tensorboard --logdir=' + 'log/')
     return
 
@@ -9,4 +9,6 @@ t = threading.Thread(target=launchTensorBoard, args=([]))
 t.start()
 
 #In your browser, enter http://localhost:6006 as the URL
-#and then click on Graph tab. You will then see the full graph.
+#add #projector to the URL if necessary: http://localhost:6006/#projector
+
+#Once loaded, click on "choose file" and open log/labels.tsv from your machine

@@ -1,4 +1,4 @@
-#https://www.tensorflow.org/tutorials/word2vec
+#Initial version : https://www.tensorflow.org/tutorials/word2vec
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -14,7 +14,7 @@ from six.moves import xrange  # pylint: disable=redefined-builtin
 from tensorflow.contrib.tensorboard.plugins import projector
 import tensorflow as tf
 
-filename =('text.zip')
+filename =('text.zip') #text file by Denis Rothman
 numsteps=10
 
 # Read the data into a list of strings.

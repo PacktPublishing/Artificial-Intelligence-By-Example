@@ -1,3 +1,4 @@
+#Copyright 2018 Denis Rothman MIT License. READ LICENSE.
 from keras.models import model_from_json
 from keras.models import load_model
 import json
