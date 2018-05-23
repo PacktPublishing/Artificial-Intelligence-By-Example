@@ -1,4 +1,4 @@
-#Copyright 2018 Denis Rothman MIT License. READ LICENSE.
+#Copyright 2018 Denis Rothman MIT License. See LICENSE.
 from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
 import matplotlib.pyplot as plt
@@ -8,8 +8,9 @@ from keras.preprocessing.image import ImageDataGenerator
 from keras.models import model_from_json
 from keras.models import load_model
 import numpy as np
-import cv2      
 from PIL import Image
+import scipy.misc
+
 
 #loads,traffic,food processing
 A=['dataset_O/','dataset_traffic/','dataset/']
@@ -43,7 +44,7 @@ def identify(target_image):
         plt.imshow(original)
         plt.show()
     numpy_image = img_to_array(original)
-    arrayresized = cv2.resize(numpy_image, (64,64))
+    arrayresized = scipy.misc.imresize(numpy_image, (64,64))    
     #print('Resized',arrayresized)
     inputarray = arrayresized[np.newaxis,...] # extra dimension to fit model 
 #___________________PREDICTION___________________________

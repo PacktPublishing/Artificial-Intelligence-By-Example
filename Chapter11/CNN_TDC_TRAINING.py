@@ -1,4 +1,4 @@
-# Importing the Keras libraries and packages
+#Copyright 2018 Denis Rothman MIT License. See LICENSE.
 from keras.models import Sequential
 from keras.layers import Conv2D
 from keras.layers import MaxPooling2D
@@ -13,7 +13,7 @@ from pprint import pprint
 
 
 A=['dataset_O/','dataset_traffic/','dataset/']     
-scenario=3            #reference to A
+scenario=2            #reference to A
 directory=A[scenario] #transfer learning parameter (choice of images)
 print("directory",directory)
 
