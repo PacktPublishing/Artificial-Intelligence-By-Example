@@ -6,7 +6,7 @@ Artificial Intelligence by Example is your starting point to understanding how A
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
 
 All chapters contain code files and data files as required.
-**The VM image with setup batch files for Ubuntu can be downloaded from Packt website.**
+**The VM image with setup batch files for Ubuntu can be downloaded from Packt website. (https://www.packtpub.com//books/content/support/33640)**
 
 The code will look like the following:
 ```
